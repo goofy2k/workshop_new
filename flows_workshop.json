@@ -5,5 +5,39 @@
         "label": "Flow 1",
         "disabled": false,
         "info": ""
+    },
+    {
+        "id": "cfdd89fa.181a48",
+        "type": "inject",
+        "z": "326d454e.e29e0a",
+        "name": "",
+        "topic": "",
+        "payload": "Hello World!",
+        "payloadType": "str",
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "x": 230,
+        "y": 100,
+        "wires": [
+            [
+                "90fb82d6.41635"
+            ]
+        ]
+    },
+    {
+        "id": "90fb82d6.41635",
+        "type": "debug",
+        "z": "326d454e.e29e0a",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 390,
+        "y": 100,
+        "wires": []
     }
 ]
