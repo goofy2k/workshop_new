@@ -1,0 +1,12 @@
+{
+    "name": "Workshop_new",
+    "description": "Fresh Nodered setup for testing",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows_workshop.json",
+            "credentialsFile": "flows_workshop_cred.json"
+        }
+    }
+}
